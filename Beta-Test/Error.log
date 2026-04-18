@@ -1,0 +1,50 @@
+================================Erreur de script================================
+Message :
+instance of IO needed
+
+Type : TypeError
+Script : UNKNOWN/Game/Boot.rb (RMXP)
+Ligne : 569
+Date : 21/03/2026 15:49:26
+Game Version : 1
+Logiciel : PSDK 26.54
+Script used by eval command : 
+ajouter_pokemon(570,5)
+
+
+===================================Backtraces===================================
+[33] : UNKNOWN/Game/Boot.rb (RMXP) | ligne 569 load
+[32] : UNKNOWN/Game/Boot.rb (RMXP) | ligne 569 load_data_vd
+[31] : UNKNOWN/Game/Boot.rb (RMXP) | ligne 556 load_data
+[30] : PSDK//000_a_root.rb (RMXP) | ligne 156 load_file_data
+[29] : PSDK//000_a_root.rb (RMXP) | ligne 145 register
+[28] : PSDK//4_Systems_000_General_1_PFM.rb (RMXP) | ligne 703 conditions_data_initialize
+[27] : PSDK//4_Systems_000_General_1_PFM.rb (RMXP) | ligne 671 stat_data_initialize
+[26] : PSDK//4_Systems_000_General_1_PFM.rb (RMXP) | ligne 561 initialize
+[25] : PSDK//2_PSDK_Event_Interpreter.rb (RMXP) | ligne 477 new
+[24] : PSDK//2_PSDK_Event_Interpreter.rb (RMXP) | ligne 477 internal_add_pokemon_check_level_shiny
+[23] : PSDK//2_PSDK_Event_Interpreter.rb (RMXP) | ligne 202 add_pokemon
+[22] : (eval) (RMXP) | ligne 2 eval_X2
+[21] : PSDK//1_RMXP_Scripts.rb (RMXP) | ligne 2125 eval_script
+[20] : PSDK//1_RMXP_Scripts.rb (RMXP) | ligne 2117 command_355
+[19] : PSDK//1_RMXP_Scripts.rb (RMXP) | ligne 1101 execute_command
+[18] : PSDK//1_RMXP_Scripts.rb (RMXP) | ligne 976 update
+[17] : PSDK//1_RMXP_Scripts.rb (RMXP) | ligne 956 loop
+[16] : PSDK//1_RMXP_Scripts.rb (RMXP) | ligne 956 update
+[15] : PSDK//4_Systems_003_Map_Engine.rb (RMXP) | ligne 9257 update_map_logic
+[14] : PSDK//4_Systems_003_Map_Engine.rb (RMXP) | ligne 2916 update_map_logic
+[13] : PSDK//4_Systems_003_Map_Engine.rb (RMXP) | ligne 9265 auto_transfert_update
+[12] : PSDK//4_Systems_003_Map_Engine.rb (RMXP) | ligne 9264 loop
+[11] : PSDK//4_Systems_003_Map_Engine.rb (RMXP) | ligne 9264 auto_transfert_update
+[10] : PSDK//4_Systems_003_Map_Engine.rb (RMXP) | ligne 9118 update
+[9] : PSDK//0_Dependencies.rb (RMXP) | ligne 1371 times
+[8] : PSDK//0_Dependencies.rb (RMXP) | ligne 1371 run
+[7] : PSDK//4_Systems_003_Map_Engine.rb (RMXP) | ligne 9118 update
+[6] : PSDK//4_Systems_000_General_2_GamePlay__Base.rb (RMXP) | ligne 236 main_process
+[5] : PSDK//4_Systems_000_General_2_GamePlay__Base.rb (RMXP) | ligne 144 main
+[4] : UNKNOWN/Game/Boot.rb (RMXP) | ligne 620 <compiled>
+[3] : UNKNOWN/Game/Boot.rb (RMXP) | ligne 360 rgss_main
+[2] : UNKNOWN/Game/Boot.rb (RMXP) | ligne 706 <compiled>
+[1] : Game.rb (RMXP) | ligne 1 eval
+[0] : Game.rb (RMXP) | ligne 1 <main>
+===================================Fin du log===================================
